@@ -64,6 +64,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
                 }
                 is Resource.Error -> {
                     logD("Error: ${response.message}")
+                    activity?.showToast("Error: ${response.message}")
                     hideProgressBar()
                 }
             }
