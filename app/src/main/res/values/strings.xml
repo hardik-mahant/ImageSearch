@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImageSearch</string>
+    <string name="hint_search">Search for images…</string>
+    <string name="hint_comment">Comment…</string>
+
+    <string name="title_search">Search</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="save">Save</string>
+</resources>
